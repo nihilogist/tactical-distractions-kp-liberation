@@ -1,0 +1,62 @@
+respawn = 3;
+respawndelay = 5;
+respawnButton = 1;
+disabledAI = true;
+
+enableDebugConsole = 1;
+allowFunctionsLog = 0;
+
+briefingName = $STR_MISSION_TITLE;
+overviewText = "www.killahpotatoes.de";
+overviewPicture = "res\lib.paa";
+author = "[GREUH] Zbug, [GREUH] McKeewa, [KP] Wyqer";
+onLoadName = $STR_MISSION_TITLE;
+onLoadMission = "www.killahpotatoes.de";
+loadScreen = "res\lib.paa";
+
+joinUnassigned = 1;
+
+#include "GREUH\UI\GREUH_interface.hpp"
+#include "ui\liberation_interface.hpp"
+#include "ui\liberation_notifications.hpp"
+#include "ui\mission_params.hpp"
+
+class CfgDebriefing
+{
+	class End1
+	{
+		title =	$STR_SORRY;
+		subtitle = "";
+		description = $STR_COMMANDER_NOT_AUTHORIZED;
+		pictureBackground = "";
+	};
+};
+
+class CfgFunctions 
+{
+	#include "vcom\cfgFunctions.hpp"
+};
+
+class Extended_PreInit_EventHandlers {
+	VCM_CBASettings = call compile preprocessFileLineNumbers "Vcom\Functions\VCM_CBASettings.sqf";
+};
+
+class CfgRemoteExec
+{
+	// List of script functions allowed to be sent from client via remoteExec
+	class Functions
+	{
+		mode = 2;
+		jip = 1;		
+		
+		class vcm_serverask { allowedTargets = 0;jip = 1; };
+		class VCM_PublicScript { allowedTargets = 0;jip = 1; };
+		class BIS_fnc_debugConsoleExec { allowedTargets = 0;jip = 1; };
+		class SpawnScript { allowedTargets = 0;jip = 1; };
+		class enableSimulationGlobal { allowedTargets = 0;jip = 1; };
+		class VCM_fnc_KnowAbout { allowedTargets = 0;jip = 1; };
+		
+	};
+	
+	
+};
