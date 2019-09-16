@@ -122,11 +122,11 @@ GRLIB_sector_cap = 180								* GRLIB_unitcap;											// Cap for sector defen
 GRLIB_battlegroup_cap = 150							* GRLIB_unitcap;											// Cap for enemy battlegroups.
 GRLIB_patrol_cap = 150								* GRLIB_unitcap;											// Cap for enemy patrols.
 
-KP_liberation_cr_kill_penalty = 6;																				// Civil Reputation penalty for killing a civilian.
-KP_liberation_cr_building_penalty = 3;																			// Civil Reputation penalty for destroying/damaging a building.
-KP_liberation_cr_vehicle_penalty = 2;																			// Civil Reputation penalty for stealing a civilian vehicle.
-KP_liberation_cr_resistance_penalty = 3;																		// Civil Reputation penalty for killing a friendly resistance soldier.
-KP_liberation_cr_sector_gain = 5;																				// Civil Reputation gain for liberate a sector.
+KP_liberation_cr_kill_penalty = 10;																				// Civil Reputation penalty for killing a civilian.
+KP_liberation_cr_building_penalty = 0;																			// Civil Reputation penalty for destroying/damaging a building.
+KP_liberation_cr_vehicle_penalty = 5;																			// Civil Reputation penalty for stealing a civilian vehicle.
+KP_liberation_cr_resistance_penalty = 15;																		// Civil Reputation penalty for killing a friendly resistance soldier.
+KP_liberation_cr_sector_gain = 15;																				// Civil Reputation gain for liberate a sector.
 KP_liberation_cr_wounded_chance = 35;																			// Chance (0-100) that there are wounded civilians right after capturing a sector.
 KP_liberation_cr_wounded_gain = 2;																				// Civil Reputation gain for providing medical assistance for wounded civilians.
 

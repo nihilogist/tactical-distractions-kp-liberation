@@ -95,7 +95,10 @@ light_vehicles = [
 	["rksla3_lcvpmk5_1",125,0,75],												//Marine transport vehicle
 	["UK3CB_BAF_MAN_HX60_Cargo_Green_MTP",125,0,75],								//MAN HX60 4x4 Flatbed
 	["UK3CB_BAF_MAN_HX60_Transport_Green_MTP",125,0,75],								//MAN HX60 4x4 Transport
-	["UK3CB_BAF_MAN_HX58_Transport_Green_MTP",125,0,75]								//MAN HX58 6x6 Transport
+	["UK3CB_BAF_MAN_HX58_Transport_Green_MTP",125,0,75],								//MAN HX58 6x6 Transport
+	["B_Radar_System_01_F",500,0,50],										// Radar truck
+	["B_MBT_01_mlrs_F",200,750,75],										// Radar truck
+	["B_SAM_System_03_F",250,500,50]										// Radar truck
 ];
 
 heavy_vehicles = [

@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1276;
+		nextID=1303;
 	};
 	class Camera
 	{
 		pos[]={27084.9,65.566605,23138.676};
-		dir[]={0.37245569,-0.27374831,0.88680595};
-		up[]={0.10601623,0.96179503,0.25242311};
-		aside[]={0.92202437,8.7180524e-008,-0.38724706};
+		dir[]={0.17989676,-0.2763145,0.94414794};
+		up[]={0.051725384,0.96105736,0.2714735};
+		aside[]={0.98238838,-5.563561e-008,-0.18718256};
 	};
 };
 binarizationWanted=0;
@@ -16667,6 +16667,7 @@ class Mission
 					};
 					id=1803;
 					type="CamoNet_OPFOR_open_F";
+					atlOffset=-0.045168877;
 				};
 				class Item3
 				{
@@ -16770,6 +16771,7 @@ class Mission
 					};
 					id=1809;
 					type="CamoNet_OPFOR_open_F";
+					atlOffset=-0.045168877;
 				};
 				class Item9
 				{
@@ -16788,6 +16790,7 @@ class Mission
 					};
 					id=1810;
 					type="CamoNet_OPFOR_open_F";
+					atlOffset=-0.045168877;
 				};
 				class Item10
 				{
@@ -17522,6 +17525,7 @@ class Mission
 					};
 					id=1869;
 					type="CamoNet_OPFOR_open_F";
+					atlOffset=-0.045168877;
 				};
 				class Item53
 				{
@@ -18973,6 +18977,7 @@ class Mission
 					};
 					id=2022;
 					type="CamoNet_OPFOR_open_F";
+					atlOffset=-0.045168877;
 				};
 				class Item138
 				{
